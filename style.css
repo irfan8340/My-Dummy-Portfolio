@@ -1,0 +1,70 @@
+body{
+    max-width: 50%;
+    margin: auto;
+    font-size: 10px;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid coral;
+}
+.face{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.name{
+    color: gray;
+}
+
+.coral{
+    color: coral;
+}
+
+.marginfix{
+    margin-top: 20px;
+}
+.table-heading{
+    min-width: 200px;
+    display: block;
+}
+
+.tableprops{
+    font-size: 20px;
+    color: coral;
+}
+
+.job-heading{
+    font-size: 13px;
+    line-height: 16px;
+}
+.job-duration{
+    font-size: 8px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.job-discription{
+    margin-top: 10px;
+    word-spacing: 2px;
+    font-size: 12px;
+}
+
+
+.intro{
+    font-size: 20px;
+}
